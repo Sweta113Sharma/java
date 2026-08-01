@@ -1,3 +1,4 @@
+
 public class Main {
 
     public static void main(String[]args){
@@ -6,7 +7,7 @@ public class Main {
 System.out.println("hi im new here");
 System.out.println("nice to meet you");
         System.out.println("give me a bag");
-        ------1/71------
+        ------1/71------*
         int age=20;
         int year=2025;
         int quantity=3;
@@ -23,7 +24,11 @@ System.out.println("nice to meet you");
         boolean forSale=false;
         boolean isNotonline=true;
 
-        System.out.println(isNotonline);*/
-
+        System.out.println(isNotonline);
+        String name = "sweta";
+        String food= "pizza";
+        System.out.println("my fav food is : "+ food);
+        System.out.println("my name is " +name+ " and i like to eat " + food);
+        -----2/71-----*/
     }
 }
