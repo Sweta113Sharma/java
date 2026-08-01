@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 public class Main {
 
     public static void main(String[]args){
@@ -30,5 +30,10 @@ System.out.println("nice to meet you");
         System.out.println("my fav food is : "+ food);
         System.out.println("my name is " +name+ " and i like to eat " + food);
         -----2/71-----*/
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Enter your name: ");
+         String name=scanner.nextLine();
+        System.out.println("hello "+name);
+        scanner.close();
     }
 }
